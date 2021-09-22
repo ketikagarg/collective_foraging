@@ -33,8 +33,8 @@ if sys.platform == 'darwin':
         import numpy
         import scipy
     except ImportError:
-        print """
-
+        print()
+"""
 FATAL ERROR: NumPy and SciPy both need to be installed to install periodic_kdtree.
 Ordinarily, they would be installed automatically, but this seems to be
 very problematic in OS X.  Fortunately, there are easy-to-install binaries
