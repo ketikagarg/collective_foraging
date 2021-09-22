@@ -6,7 +6,7 @@
 import sys
 
 if sys.version_info[0] >= 3:
-    print "WARNING: periodic_kdtree package has not been tested on Python 3"
+    print("WARNING: periodic_kdtree package has not been tested on Python 3")
 
 CLASSIFIERS = """\
 Development Status :: 3 - Alpha
