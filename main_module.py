@@ -868,7 +868,7 @@ def main(params,fig, ax, tick_speed):
                 ax.scatter(ag_x[g], ag_y[g],  marker=(3, 0, ag_theta[g]), c=ag_color[g], s = 40)
 #                 ax.scatter(ag_x[g], ag_y[g],  marker=(3, 0, ag_theta[g]), c='blue', s = 40)
             plt.pause(0.01)
-            plt.title('percent_found:'+str(pf)+';tick:'+str(i)+';avg_efficiency:'+str(np.mean(ag_eff)) )
+            plt.title('percent_found:'+str(pf)+';tick:'+str(i)+';avg_efficiency:'+str(np.round(np.mean(ag_eff))) )
             fig.canvas.draw()
 
 
