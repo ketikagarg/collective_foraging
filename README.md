@@ -4,4 +4,4 @@
 3. **When JupyterLab is launched, click HELP in the main menu and select "Launch Classic Notebook".** 
 4. **You should now be able to view a list of files. Open _'Visualize.ipynb'_ and run it.** 
 
-)
+
