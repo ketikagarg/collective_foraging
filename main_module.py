@@ -878,7 +878,8 @@ def main(params,fig, ax, tick_speed):
         
     ###when the simulation is done, get the result 
     string = grid.output(i)
-    string2 = str(i) + "," +str(tc)+","+str(mono)+","+str(beta)+","+str(radiuss)+","+str(l) + "," + str(m) + "," + string
+    
+    string2 = str(i) + "," +str(tc)+","+str(mono)+","+str(beta)+","+str(radiuss)+","+str(l) + "," + str(a) + "," + string
     return string2
 
         
