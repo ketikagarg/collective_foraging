@@ -1,3 +1,6 @@
+The main code for ABM is in _main_module.ipynb_
+
+
 1. To visualize the model and generate output files, access Binder link by clicking on the badge--> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ketikagarg/collective_foraging/HEAD)
 
 2. Wait for Binder to build the repository. It will automatically launch JupyterLab. 
