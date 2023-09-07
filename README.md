@@ -37,5 +37,6 @@ NOTE: The evolutionary model operates in the same way as the 2022 model except t
     
    
 6. The folder "evolution/" also contains code for the ARS model. The ARS model is different only over one function ("Agent.update"):
-   - In non-ARS model, if an agent is not on a resource (time, t), it decides whether to take a random walk or move towards a neighbor on a resource. In the ARS model, there is an additional step: if the agent was on a resource in the previous step (time, t-1) and now (time, t) is not --> it searches within its radius to find other resources and moves to one of them if finds a resource. If not, the agent decides whether to take a random walk or to move towards a neighbor. 
+   - In non-ARS model, if an agent is not on a resource (time, t), it decides whether to take a random walk or move towards a neighbor on a resource. In the ARS model, there is an additional step: if the agent was on a resource in the previous step (time, t-1) and now (time, t) is not --> it searches within its radius to find other resources and moves to one of them if finds a resource. If not, the agent decides whether to take a random walk or to move towards a neighbor.
+   - See the highlighted parts in the ARS flowchart for the additional decision-step that the agent makes in ARS.  
 
