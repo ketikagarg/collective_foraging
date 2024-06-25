@@ -3,7 +3,9 @@
 
 
 
-Follow the instructions below to replicate findings from Garg, K., Kello, C. T., & Smaldino, P. E. (2022). Individual exploration and selective social learning: balancing exploration–exploitation trade-offs in collective foraging. Journal of the Royal Society Interface, 19(189), 20210915. 
+Follow the instructions below to replicate findings from two papers:
+1. Garg, K., Kello, C. T., & Smaldino, P. E. (2022). Individual exploration and selective social learning: balancing exploration–exploitation trade-offs in collective foraging. Journal of the Royal Society Interface, 19(189), 20210915.
+2. Garg, K., Smaldino, P. E., & Kello, C. T. (2024). Evolution of explorative and exploitative search strategies in collective foraging. Collective Intelligence, 3(1), 26339137241228858.
 
     The main code for ABM is in _main_module.ipynb_
 
